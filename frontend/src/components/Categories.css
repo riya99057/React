@@ -1,0 +1,30 @@
+.categories {
+    padding: 5rem;
+    text-align: left;
+    }
+    .categories h2{
+        color: #ffcc00;
+    }
+  
+  .category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
